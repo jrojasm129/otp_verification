@@ -24,7 +24,6 @@ class OTPForm extends StatelessWidget {
   }
 }
 
-
 class _OTPItem extends StatefulWidget {
 
   final BuildContext context;
@@ -52,6 +51,14 @@ class _OTPItemState extends State<_OTPItem> {
     super.initState();
   }
 
+  @override
+  void dispose() {
+    controller.removeListener(focusNodeListener);
+    controller.dispose();
+    focusNode.dispose();
+    super.dispose();
+  }
+
   void focusNodeListener(){
     if(focusNode.hasFocus && controller.text.isNotEmpty){
       controller.selection = TextSelection(baseOffset: 0, extentOffset: controller.text.length);
@@ -68,12 +75,13 @@ class _OTPItemState extends State<_OTPItem> {
           style: Theme.of(context).textTheme.titleLarge!.copyWith(color: Colors.white),
           keyboardType: TextInputType.number,
           textAlign: TextAlign.center,
-          textInputAction: widget.isLast ? TextInputAction.done : TextInputAction.next,
+          textInputAction: widget.isLast ? TextInputAction.go : TextInputAction.next,
           inputFormatters: [
              LengthLimitingTextInputFormatter(1),
              FilteringTextInputFormatter.digitsOnly,
           ],
           decoration: const InputDecoration(hintText: '0'),
+          
           onChanged: (value){
             if(value.length == 1){
               focusNode.nextFocus();
