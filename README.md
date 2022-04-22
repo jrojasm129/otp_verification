@@ -1,10 +1,31 @@
-# otp_verification
+# OTP-Verification Screen
 
-A new Flutter project.
+This is a sample OTP-Verificacion Screen design, 
+
+> Inspiration: https://www.youtube.com/watch?v=G9VDqDAA3ME
+
+
+## Some screenshots
+
+|                                      |                                      |
+| ------------------------------------ | ------------------------------------ |
+| <img src="ss/ai1.png"  width="300"/> | <img src="ss/ai2.png"  width="300"/> |
+| <img src="ss/ai3.png" width="300"/>  | <img src="ss/ai4.png" width="300"/>  |
+| <img src="ss/ai5.png" width="300"/>  |
+
+---
+
+
+## Project Created & Maintained By
+
+### David Rojas
+
+Developer. Passionate #Flutter, #Entrepreneur
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+>This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
