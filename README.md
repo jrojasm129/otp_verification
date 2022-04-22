@@ -9,9 +9,7 @@ This is a sample OTP-Verificacion Screen design,
 
 |                                      |                                      |
 | ------------------------------------ | ------------------------------------ |
-| <img src="ss/ai1.png"  width="300"/> | <img src="ss/ai2.png"  width="300"/> |
-| <img src="ss/ai3.png" width="300"/>  | <img src="ss/ai4.png" width="300"/>  |
-| <img src="ss/ai5.png" width="300"/>  |
+| <img src="screenshots/main.jpg"  width="300"/> | <img src="screenshots/empty.jpg"  width="300"/> |
 
 ---
 
