@@ -9,7 +9,7 @@ This is a sample OTP-Verificacion Screen design,
 
 |                                      |                                      |
 | ------------------------------------ | ------------------------------------ |
-| <img src="screenshots/empty.jpg"  width="300"/> | <img src="screenshots/main.jpg"  width="300"/> |
+| <img src="screenshots/empty.jpg"  width="250"/> | <img src="screenshots/main.jpg"  width="250"/> |
 
 ---
 
